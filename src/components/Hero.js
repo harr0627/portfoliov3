@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaBlog } from 'react-icons/fa';
 
 export default function hero() {
   return (
-    <div className="flex items-center min-h-[40vh] md:min-h-screen">
+    <div className="flex items-center min-h-[100vh] md:min-h-screen">
       <div className="container m-auto ">
         <h1 className="text-center hero-text text-7xl text-white">
           Kelsey Harrison
