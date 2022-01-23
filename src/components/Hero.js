@@ -4,9 +4,9 @@ import { FaGithub, FaLinkedin, FaBlog } from 'react-icons/fa';
 
 export default function hero() {
   return (
-    <div className="flex items-center min-h-[100vh] md:min-h-screen">
+    <div className="flex items-center min-h-screen">
       <div className="container m-auto ">
-        <h1 className="text-center hero-text text-7xl text-white">
+        <h1 className="text-center hero-text text-7xl text-teal-400">
           Kelsey Harrison
         </h1>
         <div>
@@ -26,6 +26,7 @@ export default function hero() {
           </p>
           <div className="flex flex-wrap mx-auto justify-center">
             <a
+              aria-label="github button"
               className="text-3xl m-2"
               href="https://github.com/harr0627"
               target="_blank"
@@ -33,6 +34,7 @@ export default function hero() {
               <FaGithub className="icon" />
             </a>
             <a
+              aria-label="Linkedin button"
               className="text-3xl m-2"
               href="https://www.linkedin.com/in/kelsey-harrison-b2008713b/"
               target="_blank"
@@ -40,6 +42,7 @@ export default function hero() {
               <FaLinkedin className="icon" />
             </a>
             <a
+              aria-label="Blog button"
               className="text-3xl m-2"
               href="https://kelseyharrison.me"
               target="_blank"

@@ -5,6 +5,7 @@ export default function Navbar() {
   return (
     <>
       <nav
+        role="navigation"
         className="justify-center w-[100vw] flex bg-neutral-800 fixed top-0"
         aria-label="Global"
       >
