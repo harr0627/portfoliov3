@@ -7,7 +7,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Crypto Tracker',
-    desc: 'A web app that utilizes coingecko API to allow users to search cryptocurrencies to find current stats.',
+    desc: 'A web app that utilizes coingecko API to allow users to search cryptocurrencies to find current stats. This app is built with functional react.',
     img: CryptoImg,
     site: 'https://harr0627.github.io/react-crypto-search/',
     code: 'https://github.com/harr0627/react-crypto-search',
