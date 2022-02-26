@@ -7,14 +7,18 @@ export default function About() {
   return (
     <div id="about">
       <div className="container mx-auto max-w-6xl center py-20">
-        <h2 className="text-4xl">About</h2>
+        <h2 className="text-4xl ont-extrabold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-purple-500 to-sky-500">
+          About
+        </h2>
         <div className="columns-3 flex flex-wrap justify-center py-20 px-10">
           <div className="lg:w-1/3 p-2">
             <div role="none" className="grid justify-center text-3xl">
               {<MdCode />}
             </div>
             <div className="text-center text-3xl pb-1">
-              <p role="heading">Web Dev</p>
+              <p role="heading" aria-level="3">
+                Web Dev
+              </p>
             </div>
             <p className="text-center pt-2 text-xl">
               I utilize libraries such as react to build responsive websites for
@@ -32,7 +36,9 @@ export default function About() {
               {<MdPhonelinkSetup />}
             </div>
             <div className="text-center text-3xl pb-1">
-              <p role="heading">App Dev</p>
+              <p role="heading" aria-level="3">
+                App Dev
+              </p>
             </div>
             <p className="text-center pt-2 text-xl">
               I develop mobile applications using Swift, Kotlin or React Native.
@@ -48,7 +54,9 @@ export default function About() {
               {<MdDesktopMac />}
             </div>
             <div className="text-center text-3xl pb-1">
-              <p role="heading">UX Design</p>
+              <p role="heading" aria-level="3">
+                UX Design
+              </p>
             </div>
             <p className="text-center pt-2 text-xl">
               I follow Material and Human Interface design guidelines to provide

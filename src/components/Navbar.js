@@ -6,7 +6,7 @@ export default function Navbar() {
     <>
       <nav
         role="navigation"
-        className="justify-center w-[100vw] flex bg-neutral-800 fixed top-0"
+        className="justify-end px-8 py-4 w-[100vw] flex bg-neutral-800 fixed top-0"
         aria-label="Global"
       >
         <div className="flex justify-center">

@@ -13,20 +13,22 @@ export default function Project({ img, title, desc, code, site }) {
         </div>
         <div className=" text-center absolute bottom-4 mt-1 w-[100%]">
           <a
-            tabindex="0"
+            tabIndex="0"
             role="button"
             className=" pl-6 pr-6 pt-1 pb-1 m-1 bg-teal-400 text-grey-800 text-neutral-700 shadow-black rounded-xl"
             href={code}
             target="_blank"
+            rel="noreferrer"
           >
             Code
           </a>
           <a
-            tabindex="0"
+            tabIndex="0"
             role="button"
             className="pl-8 pr-8 pt-1 pb-1 m-1 bg-teal-400 text-grey-800 text-neutral-700 shadow-black rounded-xl"
             href={site}
             target="_blank"
+            rel="noreferrer"
           >
             Site
           </a>

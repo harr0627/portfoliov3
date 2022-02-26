@@ -7,7 +7,9 @@ export default function Projects() {
     <>
       <div id="projects">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl">Projects</h2>
+          <h2 className="text-4xl ont-extrabold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-purple-500 to-sky-500">
+            Projects
+          </h2>
           <div className="sm:p-2 mx-auto">
             <div className="px-10 py-20 grid gap-10 lg:grid-cols-3 xl:grid-cols-3 sm:grid-cols-1 auto-rows-fr">
               {projects.map((item) => (
