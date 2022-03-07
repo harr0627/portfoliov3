@@ -20,16 +20,16 @@ export default function About() {
                 Web Dev
               </p>
             </div>
-            <p className="text-center pt-2 text-xl">
+            <p className="text-center min-h-40 pt-2 text-xl">
               I utilize libraries such as react to build responsive websites for
               any device. I utilize API's to provide information to users.
             </p>
-            <p className="flex flex-wrap justify-center m-1">
+            <div className="flex flex-wrap  justify-center m-1 ">
               <FaHtml5 role="none" className="icon mx-1" />
               <FaCss3Alt role="none" className="icon mx-1" />
               <DiJavascript1 role="none" className="icon mx-1" />
               <FaReact role="none" className="icon mx-1" />
-            </p>
+            </div>
           </div>
           <div className="lg:w-1/3 p-2">
             <div role="none" className="grid justify-center text-3xl">
@@ -40,7 +40,7 @@ export default function About() {
                 App Dev
               </p>
             </div>
-            <p className="text-center pt-2 text-xl">
+            <p className="text-center min-h-40 pt-2 text-xl">
               I develop mobile applications using Swift, Kotlin or React Native.
             </p>
             <p className="flex flex-wrap justify-center m-1">
@@ -58,7 +58,7 @@ export default function About() {
                 UX Design
               </p>
             </div>
-            <p className="text-center pt-2 text-xl">
+            <p className="text-center min-h-40 pt-2 text-xl">
               I follow Material and Human Interface design guidelines to provide
               users with intuitive and eye catching experience.
             </p>
