@@ -15,13 +15,16 @@
 	width:90vw;
 }
 .Navbar nav ul{
+    display: flex; 
+    justify-content: flex-end;
     list-style: none;
     width:90vw;
-    display: flex;
-    align-items: center;
+    padding-right: 5rem;
     }
     .Navbar nav ul li {
-        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
         margin: 1rem;
     }
     .Navbar nav ul li a {

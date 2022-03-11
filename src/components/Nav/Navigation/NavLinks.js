@@ -19,11 +19,6 @@ export default function NavLinks(props) {
           Projects
         </Link>
       </li>
-      <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-        <Link className="nav-item" smooth to="/#projects">
-          Contact
-        </Link>
-      </li>
     </ul>
   );
 }
