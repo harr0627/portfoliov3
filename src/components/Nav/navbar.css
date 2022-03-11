@@ -59,6 +59,7 @@
         .Navbar nav ul {
             display: flex;
             flex-direction: column;
+            justify-content: flex-start;
             position: absolute;
             top: 5rem;
             height: 100vh;
@@ -67,7 +68,8 @@
             background-color:  #262626;
         }
         .Navbar nav ul li{
-            padding-left: 15px;
+            margin-left: 15px;
+            width:80%;
         }
         .Navbar{
             opacity: 1;
