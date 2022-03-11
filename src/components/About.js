@@ -11,7 +11,7 @@ export default function About() {
           About
         </h2>
         <div className="columns-3 flex flex-wrap justify-center py-20 px-10">
-          <div className="lg:w-1/3 p-2">
+          <div className="lg:w-1/3 p-2 max-w-sm">
             <div role="none" className="grid justify-center text-3xl">
               {<MdCode />}
             </div>
@@ -31,7 +31,7 @@ export default function About() {
               <FaReact role="none" className="icon mx-1" />
             </div>
           </div>
-          <div className="lg:w-1/3 p-2">
+          <div className="lg:w-1/3 p-2 max-w-sm">
             <div role="none" className="grid justify-center text-3xl">
               {<MdPhonelinkSetup />}
             </div>
@@ -42,6 +42,7 @@ export default function About() {
             </div>
             <p className="text-center min-h-40 pt-2 text-xl">
               I develop mobile applications using Swift, Kotlin or React Native.
+              I develop for Android or iOS devices.
             </p>
             <p className="flex flex-wrap justify-center m-1">
               <DiSwift role="none" className="icon mx-1" />
@@ -49,7 +50,7 @@ export default function About() {
               <FaReact role="none" className="icon mx-1" />
             </p>
           </div>
-          <div className="lg:w-1/3 p-2">
+          <div className="lg:w-1/3 p-2 max-w-sm">
             <div role="none" className="grid justify-items-center text-3xl">
               {<MdDesktopMac />}
             </div>
