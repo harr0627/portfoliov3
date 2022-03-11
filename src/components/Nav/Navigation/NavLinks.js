@@ -15,6 +15,11 @@ export default function NavLinks(props) {
         </Link>
       </li>
       <li onClick={() => props.isMobile && props.closeMobileMenu()}>
+        <Link className="nav-item" smooth to="/#skills">
+          Skills
+        </Link>
+      </li>
+      <li onClick={() => props.isMobile && props.closeMobileMenu()}>
         <Link className="nav-item" smooth to="/#projects">
           Projects
         </Link>

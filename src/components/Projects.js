@@ -7,7 +7,7 @@ export default function Projects() {
     <>
       <div id="projects" className=" pt-20">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-4xl ont-extrabold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-purple-500 to-sky-500">
+          <h2 className="text-4xl text-center ont-extrabold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-purple-500 to-sky-500">
             Projects
           </h2>
           <div className="sm:p-2 mx-auto">
