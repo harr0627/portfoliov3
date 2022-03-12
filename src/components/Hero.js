@@ -56,8 +56,8 @@ export default function hero() {
           </div>
         </div>
       </div>
-      <div className="container m-auto w-full sm:w-full md:w-full max-h-fit lg:w-1/2xl:w-1/2 2xl:w-1/2">
-        <HeroImage className="container m-auto max-w-full max-h-52 sm:w-1/2 md:w-1/2 lg:w-full lg:p-20 lg:max-h-fit xl:w-full xl:p-20 2xl:w-full 2xl:p-20" />
+      <div className="container m-auto w-full sm:w-full md:w-full max-h-fit lg:w-1/2 xl:w-1/2 2xl:w-1/2">
+        <HeroImage className="container m-auto max-w-full max-h-52 sm:w-1/2 md:w-1/2 lg:p-20 lg:max-h-fit xl:w-full xl:p-20 2xl:w-full 2xl:p-20" />
       </div>
     </div>
   );

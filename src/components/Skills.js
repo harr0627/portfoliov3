@@ -5,7 +5,7 @@ import { SiKotlin, SiAdobeillustrator, SiAdobexd } from 'react-icons/si';
 import { MdDesktopMac, MdCode, MdPhonelinkSetup } from 'react-icons/md';
 export default function Skills() {
   return (
-    <div id="about">
+    <div id="skills">
       <div className="container mx-auto max-w-6xl center pt-20">
         <h2 className="text-4xl text-center ont-extrabold text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-purple-500 to-sky-500">
           Skills
