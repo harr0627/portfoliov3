@@ -8,7 +8,7 @@ export default function About() {
           About
         </h2>
         <p className="text-center px-10">
-          I am a Mobile Application Developer. With a passion for picking up new
+          I am a Mobile Application Developer with a passion for picking up new
           languages and technologies.
         </p>
       </div>
