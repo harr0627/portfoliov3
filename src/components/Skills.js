@@ -21,7 +21,7 @@ export default function Skills() {
               </p>
             </div>
             <p className="text-center min-h-40 pt-2 text-xl">
-              I utilize libraries such as react to build responsive websites for
+              I utilize libraries such as React to build responsive websites for
               any device. I utilize API's to provide information to users.
             </p>
             <div className="flex flex-wrap  justify-center m-1 ">

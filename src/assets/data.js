@@ -18,7 +18,7 @@ const projects = [
     name: 'GitHub Search',
     desc: 'This iOS app searches for github users. The user can view github user stats and visit github account. This app was built with SwiftUI and utilizes multiple packages such as Alamofire for HTTP networking and Kingfisher for image caching. ',
     img: GithubSearch,
-    code: 'https://github.com/harr0627/mad9135-c1-html5-weather',
+    code: 'https://github.com/harr0627/mad9135-p2-react-native-final',
   },
   {
     id: uuidv4(),
