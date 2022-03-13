@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c20c72a.css",
-    "main.js": "/static/js/main.cb2457db.js",
+    "main.css": "/static/css/main.41ddc021.css",
+    "main.js": "/static/js/main.ca99a0e0.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/weather.png": "/static/media/weather.72446633c45b173b781c.png",
-    "static/media/crypto.png": "/static/media/crypto.cd686c3be0c5171b5d6d.png",
-    "static/media/questpoint.png": "/static/media/questpoint.b1227ce802ff53064c35.png",
+    "static/media/weather.png": "/static/media/weather.246f88acf7a730d6468b.png",
+    "static/media/github-search.png": "/static/media/github-search.f90347a36b401d484004.png",
+    "static/media/questpoint.png": "/static/media/questpoint.6ea697b36099b78c13e0.png",
+    "static/media/crypto.png": "/static/media/crypto.5ae430c736fa87e3ff87.png",
     "static/media/proudProgrammer.svg": "/static/media/proudProgrammer.1cf0479736507870eac3f7ca0c78dc56.svg",
     "index.html": "/index.html",
-    "main.3c20c72a.css.map": "/static/css/main.3c20c72a.css.map",
-    "main.cb2457db.js.map": "/static/js/main.cb2457db.js.map",
+    "main.41ddc021.css.map": "/static/css/main.41ddc021.css.map",
+    "main.ca99a0e0.js.map": "/static/js/main.ca99a0e0.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c20c72a.css",
-    "static/js/main.cb2457db.js"
+    "static/css/main.41ddc021.css",
+    "static/js/main.ca99a0e0.js"
   ]
 }
