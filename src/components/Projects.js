@@ -11,7 +11,7 @@ export default function Projects() {
             Projects
           </h2>
           <div className="sm:p-2 mx-auto">
-            <div className="px-10 py-20 grid gap-10 lg:grid-cols-2 xl:grid-cols-2 sm:grid-cols-1 auto-rows-fr">
+            <div className="px-10 py-20 grid gap-10 lg:grid-cols-1 xl:grid-cols-1 sm:grid-cols-1 auto-rows-fr">
               {projects.map((item) => (
                 <Project
                   key={item.id}

@@ -15,3 +15,11 @@
   font-family: 'Montserrat';
   font-weight: 600;
 }
+.githubLinka{
+  margin: auto;
+  width: fit-content;
+  padding: 10px;
+}
+.githubLink{
+  font-size: 2rem;
+}

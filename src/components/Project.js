@@ -1,35 +1,26 @@
 import React from 'react';
+import { FaGithub } from 'react-icons/fa';
 
 export default function Project({ img, title, desc, code, site }) {
   return (
-    <div>
-      <div>
+    <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-2 sm:grid-cols-1 auto-rows-fr">
+      <div className="grid place-content-center">
         <img className="" src={img} alt={title} />
       </div>
       <div>
-        <h3 className="text-center font-bold">{title}</h3>
+        <h3 className="text-center pb-3 font-bold">{title}</h3>
         <p className="text-lg">{desc}</p>
-      </div>
-      <div className="grid gap-1 grid-cols-2">
-        <a
-          role="button"
-          className="text-center text-rose-600 shadow-black rounded-xl"
-          href={code}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Code
-        </a>
-
-        <a
-          role="button"
-          className="text-center text-rose-600 shadow-black rounded-xl"
-          href={site}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Site
-        </a>
+        <div className="mt-10 grid gap-1 grid-cols-1 place-content-center">
+          <a
+            role="button"
+            className="githubLinka"
+            href={code}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaGithub className="githubLink text-rose-600 shadow-black" />
+          </a>
+        </div>
       </div>
     </div>
   );
