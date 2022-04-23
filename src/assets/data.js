@@ -1,10 +1,19 @@
 import { v4 as uuidv4 } from 'uuid';
 import WeatherImg from '../assets/images/weather.png';
+import WildRoga from '../assets/images/wildRoga.png';
 import CryptoImg from '../assets/images/crypto.png';
 import QuestImg from '../assets/images/questpoint.png';
 import GithubSearch from '../assets/images/github-search.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'WildRoga',
+    desc: `WildRoga is a yoga and wellness app that offers pre-recorded content, live streams and community wall for users to interact with instructor content. This app was built with React Native utilizing Firebase for data storage, MUX for broadcast channel, and Stripe for payment processing.`,
+    img: WildRoga,
+    site: 'https://github.com/harr0627/WildRoga',
+    code: 'https://github.com/harr0627/WildRoga',
+  },
   {
     id: uuidv4(),
     name: 'Weather',
@@ -18,13 +27,6 @@ const projects = [
     name: 'GitHub Search',
     desc: 'This iOS app searches for github users. The user can view github user stats and visit github account. This app was built with SwiftUI and utilizes multiple packages such as Alamofire for HTTP networking and Kingfisher for image caching. ',
     img: GithubSearch,
-    code: 'https://github.com/harr0627/mad9135-p2-react-native-final',
-  },
-  {
-    id: uuidv4(),
-    name: 'Quest Point',
-    desc: 'Quest Point is a React Native application that allows users to add, edit and delete tasks. Users are able to set how many times they want to do the task before marking it complete and update the current number with a swipe up or down gesture. User data is saved into async storage.',
-    img: QuestImg,
     code: 'https://github.com/harr0627/mad9135-p2-react-native-final',
   },
   {
